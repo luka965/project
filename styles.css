@@ -57,7 +57,7 @@ h1 {
 
 
 .img {
-    width: 97%;
+    width: 95%;
     height: 500px;
     background-image: url("./images/gogia.jpg");
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ h1 {
 }
 
 .desc {
-    width: 97%;
+    width: 95%;
     height: 100px;
     background-color:burlywood;
     position: relative;
