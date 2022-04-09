@@ -71,7 +71,7 @@ h1 {
 .desc {
     width: 95%;
     height: 100px;
-    background-color:burlywood;
+    background-color:blueviolet;
     position: relative;
     top: -30px;
     transition: all 0.5s;
