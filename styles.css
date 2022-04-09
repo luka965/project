@@ -75,7 +75,7 @@ h1 {
     background-image: url(images/VCO8x0.jpg);
     position: relative;
     top: -30px;
-    transition: all 0.5s;
+    transition: all 1.5s;
     border-radius: 30px;
     display: flex;
     justify-content: center;
