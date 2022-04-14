@@ -96,7 +96,7 @@ h1 {
 }
 
 .desc {
-    width: 97%;
+    width: 90%;
     height: 100px;
     background-image: url(images/VCO8x0.jpg);
     position: relative;
@@ -115,7 +115,7 @@ h1 {
     align-items: center;
     gap: 30px;
     opacity: 0;
-    transition: all 1.9s;
+    transition: all 1.5s;
 }
 
 .desc-inline .item {
