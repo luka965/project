@@ -163,3 +163,8 @@ h1 {
     width: 100%;
 }
 
+@media (max-width: 620px) {
+    .img, .desc {
+      width: 100%;
+    }
+  }
