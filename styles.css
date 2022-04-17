@@ -201,7 +201,7 @@ h1 {
 
 @media screen and (max-width: 500px) {
     .img, .desc{
-      width: 500px;
+      width: 100%;
       align-items: center;
     }
 }
