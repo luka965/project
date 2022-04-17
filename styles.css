@@ -199,21 +199,23 @@ h1 {
     height:500px;
 }
 
-@media screen and (max-width: 500px) {
-    .img, .desc{
-      width: 100%;
-      align-items: center;
-    }
-}
 
 @media screen and (max-width: 500px) {
     nav {
-        width: 500px;
+        width: 330px;
     }
 }
 
-@media (max-width: 500px) {
-    .map{
-        width: 100%;
+
+@media screen and (max-width: 500px) {
+    .img{
+     width: 330px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .desc{
+    width: 330px;
+    }
+}
+
