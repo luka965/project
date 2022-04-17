@@ -202,20 +202,20 @@ h1 {
 
 @media screen and (max-width: 500px) {
     nav {
-        width: 330px;
+        width: 370px;
     }
 }
 
 
 @media screen and (max-width: 500px) {
     .img{
-     width: 330px;
+     width: 370px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .desc{
-    width: 330px;
+    width: 370px;
     }
 }
 
