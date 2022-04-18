@@ -199,23 +199,51 @@ h1 {
     height:500px;
 }
 
+@media screen and (max-width: 375px) {
+    .img, .desc{
+     width: 350px;
+    }
+}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
     nav {
+        width: 395px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .desc, .img {
+        width: 413px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    nav {
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .img, desc{
         width: 370px;
     }
 }
 
 
-@media screen and (max-width: 500px) {
-    .img{
-     width: 370px;
+@media screen and (max-width: 393px) {
+    nav {
+        width: 420px;
     }
 }
 
-@media screen and (max-width: 500px) {
-    .desc{
-    width: 370px;
+@media screen and (max-width: 393px) {
+    .img, .desc{
+        width: 393px;
     }
 }
 
+@media screen and (max-width: 412px) {
+    .img, .desc{
+       width: 410px;
+    }
+}
