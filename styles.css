@@ -39,7 +39,19 @@ nav {
     color: rgb(148, 144, 251);
 }
 
+.lastbar {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(38, 37, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
 
+.madebycolor {
+    color: bisque;
+}
 
 body {
     background-color: bisque;
