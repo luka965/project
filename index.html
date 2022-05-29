@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <li class="logo">logo</li>
+      <ul class="navul">
+        <li class="navli">Home</li>
+        <li class="navli">About</li>
+        <li class="navli">Contact</li>
+      </ul>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div id="myLinks">
+      <div id="links">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+    </div>
+    <div class="firstpic">
+      <div class="containerof-text">
+        <p class="text">
+          Finding the best car insurance <br />
+          company for you
+        </p>
+        <p class="firstp">
+          Pricing and discounts made up a portion of each insurer’s score, but
+          we know that cost is the top factor for many <br />
+          auto insurance shoppers. Since pricing is based on personal factors
+          including your age, location, vehicle and credit <br />
+          history and gender (in most cases), it’s important to shop around for
+          car insurance quotes.
+        </p>
+        <p class="secondp">
+          If price is the most important factor in your search, comparing car
+          insurance quotes can help you find the <br />
+          cheapest rate. But your shopping experience will also shed light on a
+          company’s customer service standards.
+        </p>
+        <center><i class="fa-solid fa-angles-right fa5x"></i></center>
+      </div>
+    </div>
+
+    <div class="section" id="">
+      <h2 class="section-first-line">
+        Insurance and investing for your many sides
+      </h2>
+      <h5>
+        We've been protecting people, businesses and futures for more than 90
+        years.
+      </h5>
+      <div class="containers-icons">
+        <div class="frame">
+          <div class="first-card card">
+            <h2>For you and your family</h2>
+            <p>We protect vehicles, property, pets and events.</p>
+            <button class="custom-btn btn-6"><span>READ MORE</span></button>
+          </div>
+
+          <div class="second-card card">
+            <h2>For your business</h2>
+            <p>
+              We protect businesses and employees, as well as company property
+              and vehicles.
+            </p>
+            <button class="custom-btn btn-6"><span>READ MORE</span></button>
+          </div>
+
+          <div class="third-card card">
+            <h2>For your future</h2>
+            <p>We protect investments, retirements and financial dreams.</p>
+            <button class="custom-btn btn-6"><span>READ MORE</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <video width="100%" height="auto" autoplay muted>
+      <source src="./video/20220529-44840-255 PM.mp4" type="video/mp4" />
+    </video>
+
+    <div class="flex-container">
+      <div class="section-left"
+      <h5></h5><h5 class="first-sectiontitle">Finding the best car insurance company for you</h5>
+      <br>
+      <br>
+      <h3>
+        Pricing and discounts made up a portion of each insurer’s score, but we
+        know that cost is the top factor for many auto insurance shoppers. Since
+        pricing is based on personal factors including your age, location,
+        vehicle and credit history and gender (in most cases), it’s important to
+        shop around for car insurance quotes. If price is the most important
+        factor in your search, comparing car insurance quotes can help you find
+        the cheapest rate. But your shopping experience will also shed light on
+        a company’s customer service standards.
+      </h3>
+      <br />
+      <br />
+      <br />
+    </div>
+      <div class="section-right">
+        <h5 class="section-title">To find the top car insurance companies:</h5>
+        <br>
+        <br>
+        <ol>
+          <li>
+            Visit your state insurance commissioner’s website to find complaints
+            and other information about companies in your area.
+          </li>
+          <br>
+          <br>
+          <li>
+            Ask your agent or a customer service representative any questions
+            you have to make sure you’re getting all the coverage you need — and
+            nothing you don’t want.
+          </li>
+          <br>
+          <br>
+          <li>
+            Consider smaller insurance companies, too. Small companies offer
+            rates well below large competitors in many locations.
+          </li>
+          <br>
+          <br>
+          <li>
+            If you’ve had tickets, DUIs or other violations, be sure to shop
+            three and five years after the incident, when surcharges can drop
+            significantly.
+          </li>
+        </ol>
+      </div>
+    </div>
+    
+ <div class="three-images">
+        <img class="three-images-items withproblem" src="./images/carslog.jpeg" alt="">
+        <img class="three-images-items" src="./images/waylog.jpeg" alt="">
+        <img class="three-images-items" src="./images/firstpic.jpeg" alt="">
+      </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        var links = document.getElementById("links");
+        //var navul = document.querySelector('.navul');
+
+        if (x.style.height == 0 || x.style.height == 0 + "px") {
+          x.style.height = 100 + "vh";
+          links.style.display = "flex";
+
+          //alert(5)
+        } else {
+          x.style.height = 0;
+          links.style.display = "none";
+          console.log(x.style.height);
+        }
+      }
+    </script>
+  </body>
+</html>
